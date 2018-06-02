@@ -17,6 +17,9 @@ export default Route.extend({
     },
     toggleEdit() {
       this.controller.toggleProperty('editable');
+    },
+    something() {
+      console.log('hit this');
     }
   }
 });
